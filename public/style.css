@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 2vw; 
+}
+
+.hidden-post{
+    display: none;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 2vh; 
+}
+
+.post {
+    background-color: #fff;
+    padding: 2vw; 
+    margin-bottom: 2vh; 
+    border-radius: 1vw; 
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1); 
+}
+
+.user {
+    color: #333;
+    margin-bottom: 0.5vh; 
+}
+
+.content {
+    margin-bottom: 1vh; 
+    font-style: normal;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 1vw; 
+}
+
+button {
+    
+    padding: 0.5vw 1vw; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.8vw; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: inline;
+    max-width: 80vw; 
+    margin: 0 auto;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 2vw;
+    margin-bottom: 2vh;
+    border-radius: 1vw;
+    border: 0.1vw solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .post {
+        padding: 3vw;
+        margin-bottom: 3vh;
+        border-radius: 2vw;
+        box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1);
+    }
+}
+
